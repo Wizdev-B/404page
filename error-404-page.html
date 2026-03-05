@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>font awesome</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <style>
+      .body {
+        text-align: center;
+      }
+      .text {
+        font-size: 120px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 16px;
+        margin-bottom: 25px;
+      }
+
+      body {
+        color: white;
+        height: 100vh;
+        /* background: linear-gradient(to bottom , #8b0000, #d32b2b); */
+        display: flex;
+        justify-content: center;
+        background-color: darkred;
+        margin: 50px;
+        align-items: center;
+        animation: float  1s ease-in-out infinite;
+      }
+      @keyframes float{0% {
+          opacity: 0.5;
+          background-color: coral;
+        }
+        50% {
+          opacity: 1;
+          background-color: chartreuse;
+        }
+        100% {
+          opacity: 0.5;
+          background-color: aqua;
+        }
+
+      }
+        
+      .white {
+        text-decoration: none;
+        padding: 10px 20px;
+        background: white;
+        color: #8b0000;
+        border-radius: 20px;
+        font-size: 14px;
+      }
+      button {
+        padding: 10px 20px;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        border-radius: 20px;
+      }
+      .icons {
+        margin-top: 30px;
+       display: flex;
+       gap: 20px;
+       justify-content: center;
+      }
+    </style>
+  </head>
+  <body class="float">
+    <section>
+      <div class="body">
+        <h1 class="text">404</h1>
+        <p>WE ARE SORRY, BUT THE PAGE YOU REQUESTED WAS NOT FOUND</p>
+        <div>
+    <a href="../../exercises/forms/student-admission-form-v1.html" target="_blank">     <button class="white">GO HOME</button></a>
+    <a href="http://127.0.0.1:5500/freecod.html" target="_blank">   <button>CONTACT US</button></a>
+        </div>
+        <div class="icons">
+        
+            <i class="fa-brands fa-facebook fa-bounce"></i>
+          
+        
+            <i class="fa-brands fa-twitter fa-bounce"></i>
+          
+          
+            <i class="fa-brands fa-pinterest fa-bounce "></i
+          >
+          
+            <i class="fa-brands fa-google-plus-g fa-bounce "></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
